@@ -7,11 +7,11 @@ class Kosar:
         - a vásárlás összege
     """
 
-    def __init__(self, termekek: dict[str, int]) -> None:
+    def __init__(self,elem: str) -> None:
         """
         A kosár létrehozásakor beállítja az osztály attribútumait.
         """
-        pass
+        self.elem = elem
 
     def osszeg_lekerdezese(self) -> int:
         """

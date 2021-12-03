@@ -12,13 +12,12 @@ class Bolt:
         """
         pass
 
-    def feladat_1(self, filepath: str) -> None:
+    def feladat_1(self, f: str) -> None:
         """
-        Beolvassa a fájlból a kosarak tartalmát.
-
-        :param filepath: A kosarak tartalmát tartalmazó fájl elérési útvonala.
+        Filebeolvasás
         """
         pass
+
 
     def feladat_2(self) -> None:
         """
